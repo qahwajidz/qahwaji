@@ -1,2 +1,2 @@
 # Qahwaji Store
-This is a temporary README to enable Codespaces.
+Temporary README to enable Codespaces

@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f6f3ee;
+  color: #3b2f2f;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #e6dfd5;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+nav button {
+  background: #6b705c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background: #4a4f3a;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.product {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.product h3 {
+  margin: 0.5rem 0;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.badge {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+
+.available {
+  background: #d8f3dc;
+}
+
+.unavailable {
+  background: #f1c0c0;
+}
+
+.product button {
+  margin-top: 0.5rem;
+  background: #a98467;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#cart {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+  padding: 1rem;
+  width: 280px;
+  max-height: 60vh;
+  overflow-y: auto;
+  box-shadow: -4px -4px 10px rgba(0,0,0,0.15);
+}
+
+#cart h2 {
+  margin-top: 0;
+}
+
+#cart button {
+  width: 100%;
+  background: #25d366;
+  color: white;
+  border: none;
+  padding: 0.6rem;
+  border-radius: 8px;
+  font-size: 1rem;
+}

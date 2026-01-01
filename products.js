@@ -29,7 +29,7 @@ const products = [
   {
     id: 4,
     name: "Beurre de cacahuète maison",
-    description: "",
+    description: "Cacahuètes torréfiées (pas encore de notre production), simplement salé",
     price: 800,
     category: "transform",
     available: true,
@@ -38,7 +38,7 @@ const products = [
   {
     id: 5,
     name: "Cactus candy",
-    description: "",
+    description: "Cactus confit artisanal, issu de raquettes de figuier de Barbarie et de sucre, et c’est tout. Un peu de minéraux dans vos bonbons !",
     price: 3000,
     category: "transform",
     available: true,

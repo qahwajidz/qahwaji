@@ -55,8 +55,8 @@ const products = [
   },
   {
     id: 7,
-    name: "Orangettes chocolat 70%",
-    description: "",
+    name: "Orangettes chocolat noir",
+    description: "Bouillies deux fois dans l'eau fraiche, puis dans un sirop de dattes, pour etre ensuite déshydratées et enrobées de chocolat 70%",
     price: 800,
     category: "transform",
     available: true,
@@ -65,7 +65,7 @@ const products = [
   {
     id: 8,
     name: "Chocolate covered espresso beans",
-    description: "",
+    description: "Nos grains de cafés enrobés dans du chocolat 70%",
     price: 3000,
     category: "coffee",
     available: true,
@@ -74,7 +74,7 @@ const products = [
   {
     id: 9,
     name: "Feuilles d'olivier façon matcha",
-    description: "",
+    description: "Poudre de feuille d'olivier, pour maximiser les bienfaits de cette infusion",
     price: 600,
     category: "farm",
     available: false,
@@ -82,8 +82,8 @@ const products = [
   },
   {
     id: 10,
-    name: "Levain naturel",
-    description: "",
+    name: "Levain naturel déshydraté",
+    description: "Pour faire vos propres pains au levain",
     price: 800,
     category: "transform",
     available: true,
@@ -92,7 +92,7 @@ const products = [
   {
     id: 11,
     name: "Vinaigre de grenade",
-    description: "",
+    description: "Vivant, avec sa mère",
     price: 3000,
     category: "transform",
     available: true,
@@ -101,7 +101,7 @@ const products = [
   {
     id: 12,
     name: "Olives",
-    description: "",
+    description: "Olives fermentées selon la méthode traditionnelle de lactofermentation",
     price: 600,
     category: "farm",
     available: false,
@@ -110,7 +110,7 @@ const products = [
   {
     id: 13,
     name: "Confiture maison",
-    description: "",
+    description: "Figue, cactus, grenade, pomme, poire, figue de barbarie ... merci de spécifier !",
     price: 800,
     category: "transform",
     available: true,
@@ -118,10 +118,19 @@ const products = [
   },
   {
     id: 14,
-    name: "Café torréfié – sampler",
-    description: "",
+    name: "Tisanes d'herbes medicinales de la ferme",
+    description: "Zaatar, romarin, artemisia ... ",
     price: 2500,
     category: "coffee",
+    available: false,
+    image: "images/coffee.jpg"
+  },
+  {
+    id: 15,
+    name: "Mélange tahini - sirop de dattes",
+    description: "Caramel, sans culpabilité ! ",
+    price: 2500,
+    category: "transform",
     available: true,
     image: "images/coffee.jpg"
   }

@@ -14,6 +14,7 @@ function renderProducts(category = "all") {
       div.innerHTML = `
         <img src="${p.image}" alt="${p.name}">
         <h3>${p.name}</h3>
+        <p class="description">${p.description}</p>
         <p class="price">${p.price} DA</p>
         <span class="badge ${p.available ? 'available' : 'unavailable'}">
           ${p.available ? 'Disponible' : 'Bientôt disponible'}

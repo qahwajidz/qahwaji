@@ -6,7 +6,7 @@ const products = [
     price: 800,
     category: "coffee",
     available: true,
-    image: "images/coffee.jpg"
+    image: "images/250g.jpg"
   },
   {
     id: 2,
@@ -42,7 +42,7 @@ const products = [
     price: 3000,
     category: "transform",
     available: true,
-    image: "images/jam.jpg"
+    image: "images/candy.jpg"
   },
   {
     id: 6,
@@ -60,7 +60,7 @@ const products = [
     price: 800,
     category: "transform",
     available: true,
-    image: "images/jam.jpg"
+    image: "images/orangettes.jpg"
   },
   {
     id: 8,
@@ -141,7 +141,7 @@ const products = [
     price: 800,
     category: "transform",
     available: true,
-    image: "images/coffee.jpg"
+    image: "images/trio.jpg"
   }
 ];
 

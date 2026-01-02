@@ -24,7 +24,7 @@ const products = [
     price: 2500,
     category: "coffee",
     available: true,
-    image: "images/coffee.jpg"
+    image: "images/sampler.jpg"
   },
   {
     id: 4,

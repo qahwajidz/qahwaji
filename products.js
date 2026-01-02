@@ -133,6 +133,15 @@ const products = [
     category: "transform",
     available: true,
     image: "images/coffee.jpg"
+  },
+  {
+    id: 16,
+    name: "Trio de couscous",
+    description: "Melande de couscous de semoule, gland (balout), orge",
+    price: 800,
+    category: "transform",
+    available: true,
+    image: "images/coffee.jpg"
   }
 ];
 

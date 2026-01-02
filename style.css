@@ -11,9 +11,22 @@ header {
   background: #e6dfd5;
 }
 
+
 header h1 {
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 3.2rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #3b2f2f;
+}
+
+header p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #6b5e55;
 }
 
 nav {

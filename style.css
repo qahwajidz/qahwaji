@@ -59,8 +59,8 @@ nav button:hover {
 main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1rem;
-  padding: 1rem;
+  gap: 1.2rem;
+  padding: 1.5rem;
 }
 
 
@@ -141,4 +141,23 @@ main {
   color: #5a4a3c;
   margin: 0.3rem 0 0.7rem 0;
   min-height: 2em; /* keeps cards uniform even if some descriptions are empty */
+}
+
+.section {
+  grid-column: 1 / -1;
+  margin-top: 2.5rem;
+}
+
+.section h2 {
+  font-size: 1.4rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #6b5e55;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding-bottom: 0.5rem;
+}
+
+.section:not(:first-child) {
+  padding-top: 1.5rem;
 }

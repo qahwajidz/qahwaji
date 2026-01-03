@@ -1,23 +1,22 @@
-
+/* -------------------- Body -------------------- */
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: #3b2f2f;
 
+  /* subtle textured background */
   background:
     radial-gradient(rgba(0,0,0,0.025) 1px, transparent 1px),
     #f6f2ec;
-
   background-size: 18px 18px;
 }
 
-
+/* -------------------- Header -------------------- */
 header {
   text-align: center;
   padding: 2rem 1rem;
   background: #e6dfd5;
 }
-
 
 header h1 {
   margin: 0;
@@ -36,6 +35,7 @@ header p {
   color: #6b5e55;
 }
 
+/* -------------------- Navigation -------------------- */
 nav {
   display: flex;
   justify-content: center;
@@ -56,14 +56,30 @@ nav button:hover {
   background: #4a4f3a;
 }
 
+/* -------------------- Product sections -------------------- */
 main {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.2rem;
   padding: 1.5rem;
 }
 
+.section-title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #3b2f2f;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-bottom: 2px solid #d8cfc0;
+  padding-bottom: 0.3rem;
+}
 
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* -------------------- Product cards -------------------- */
 .product {
   background: #ffffff;
   border-radius: 14px;
@@ -78,6 +94,13 @@ main {
 
 .product h3 {
   margin: 0.5rem 0;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #5a4a3c;
+  margin: 0.3rem 0 0.7rem 0;
+  min-height: 2em;
 }
 
 .price {
@@ -110,6 +133,7 @@ main {
   cursor: pointer;
 }
 
+/* -------------------- Cart -------------------- */
 #cart {
   position: fixed;
   bottom: 0;
@@ -134,58 +158,4 @@ main {
   padding: 0.6rem;
   border-radius: 8px;
   font-size: 1rem;
-}
-
-.description {
-  font-size: 0.9rem;
-  color: #5a4a3c;
-  margin: 0.3rem 0 0.7rem 0;
-  min-height: 2em; /* keeps cards uniform even if some descriptions are empty */
-}
-
-.section {
-  grid-column: 1 / -1;
-  margin-top: 2.5rem;
-}
-
-.section h2 {
-  font-size: 1.4rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #6b5e55;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid rgba(0,0,0,0.1);
-  padding-bottom: 0.5rem;
-}
-
-.section:not(:first-child) {
-  padding-top: 1.5rem;
-}
-
-/*.section-title {
-  grid-column: 1 / -1;   /* spans full width 
-  margin: 2rem 0 0.5rem;
-  font-size: 1.6rem;
-  font-weight: 600;
-  color: #3b2f2f;
-  border-bottom: 1px solid rgba(0,0,0,0.08);
-  padding-bottom: 0.3rem;
-} */
-
-.section-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1rem;
-  margin-bottom: 2rem;
-}
-
-.section-title {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  font-size: 1.8rem;
-  color: #3b2f2f;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  border-bottom: 2px solid #d8cfc0;
-  padding-bottom: 0.3rem;
 }

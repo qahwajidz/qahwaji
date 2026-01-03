@@ -119,7 +119,7 @@ const products = [
   {
     id: 14,
     name: "Tisanes d'herbes medicinales de la ferme",
-    description: "Zaatar, romarin, artemisia ... ",
+    description: "Zaatar, romarin, artemisia, dguft ... ",
     price: 2500,
     category: "coffee",
     available: false,
@@ -141,6 +141,33 @@ const products = [
     price: 800,
     category: "transform",
     available: true,
+    image: "images/trio.jpg"
+  },
+   {
+    id: 17,
+    name: "Huile d'olive",
+    description: "Recoltés à la main, tôt, préssés à froid",
+    price: 800,
+    category: "farm",
+    available: false,
+    image: "images/trio.jpg"
+  },
+   {
+    id: 18,
+    name: "Miel",
+    description: "De nos abeilles, élévées naturellement, selon les méthodes de Michael Bush",
+    price: 800,
+    category: "farm",
+    available: false,
+    image: "images/trio.jpg"
+  },
+  {
+    id: 19,
+    name: "Moringa",
+    description: "En feuilles ou en poudre",
+    price: 800,
+    category: "farm",
+    available: false,
     image: "images/trio.jpg"
   }
 ];

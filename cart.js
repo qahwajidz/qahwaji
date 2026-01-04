@@ -86,7 +86,7 @@ function updateCart() {
 }
 
 function checkout() {
-  let message = "Bonjour, je souhaite commander :%0A%0A";
+  let message = "Assalamu aleykoum, je souhaite commander :%0A%0A";
   let total = 0;
 
   cart.forEach(i => {
@@ -104,3 +104,14 @@ function checkout() {
 }
 
 renderProducts();
+
+function toggleAbout() {
+  const about = document.getElementById("about");
+  about.classList.toggle("hidden");
+
+  // scroll to it when opened
+  if (!about.classList.contains("hidden")) {
+    about.scrollIntoView({ behavior: "smooth" });
+  }
+}
+

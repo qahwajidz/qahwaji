@@ -33,7 +33,7 @@ const products = [
     price: 800,
     category: "transform",
     available: true,
-    image: "images/jam.jpg"
+    image: "images/pb.jpg"
   },
   {
     id: 5,
@@ -69,7 +69,7 @@ const products = [
     price: 3000,
     category: "coffee",
     available: true,
-    image: "images/coffee.jpg"
+    image: "images/chocbeans.jpg"
   },
   {
     id: 9,
@@ -87,7 +87,7 @@ const products = [
     price: 800,
     category: "transform",
     available: true,
-    image: "images/jam.jpg"
+    image: "images/levain.jpg"
   },
   {
     id: 11,
@@ -96,7 +96,7 @@ const products = [
     price: 3000,
     category: "transform",
     available: true,
-    image: "images/coffee.jpg"
+    image: "images/vinegar.jpg"
   },
   {
     id: 12,
@@ -132,7 +132,7 @@ const products = [
     price: 2500,
     category: "transform",
     available: true,
-    image: "images/coffee.jpg"
+    image: "images/caramel.jpg"
   },
   {
     id: 16,

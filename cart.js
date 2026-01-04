@@ -95,15 +95,13 @@ function checkout() {
   });
 
   message += `%0ATotal : ${total} DA%0A%0A`;
-  message += "Nom : %0ATéléphone : %0ACommune : ";
+  message += "Nom : %0ATéléphone : %0ACommune : %0ACommentaires : ";
 
   window.open(
     `https://wa.me/213795501981?text=${message}`,
     "_blank"
   );
 }
-
-renderProducts();
 
 function toggleAbout() {
   const about = document.getElementById("about");
@@ -114,4 +112,8 @@ function toggleAbout() {
     about.scrollIntoView({ behavior: "smooth" });
   }
 }
+
+
+
+renderProducts();
 

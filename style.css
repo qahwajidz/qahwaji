@@ -181,3 +181,9 @@ main {
 .hidden {
   display: none;
 }
+
+body {
+  padding-bottom: 180px;
+}
+
+

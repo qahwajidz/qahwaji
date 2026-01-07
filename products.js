@@ -29,7 +29,7 @@ const products = [
   {
     id: 4,
     name: "Beurre de cacahuète maison",
-    description: "Cacahuètes torréfiées (pas encore de notre production), simplement salé",
+    description: "Cacahuètes torréfiées (pas encore de notre production), simplement salé, ou version chocolat - sirop de dattes",
     price: 800,
     category: "transform",
     available: true,
@@ -73,18 +73,18 @@ const products = [
   },
   {
     id: 9,
-    name: "Feuilles d'olivier façon matcha",
-    description: "Poudre de feuille d'olivier, pour maximiser les bienfaits de cette infusion",
+    name: "Feuilles d'olivier broyés",
+    description: "Tisane de feuille d'olivier, légèrement broyé pour maximiser les bienfaits de cette infusion",
     price: 600,
     category: "farm",
-    available: false,
+    available: true,
     image: "images/eggs.jpg"
   },
   {
     id: 10,
     name: "Levain naturel déshydraté",
     description: "Pour faire vos propres pains au levain",
-    price: 800,
+    price: 300,
     category: "transform",
     available: true,
     image: "images/levain.jpg"
@@ -94,7 +94,7 @@ const products = [
     name: "Vinaigre de grenade",
     description: "Vivant, avec sa mère",
     price: 3000,
-    category: "transform",
+    category: "farm",
     available: true,
     image: "images/vinegar.jpg"
   },
@@ -104,13 +104,13 @@ const products = [
     description: "Olives fermentées selon la méthode traditionnelle de lactofermentation",
     price: 600,
     category: "farm",
-    available: false,
+    available: true,
     image: "images/eggs.jpg"
   },
   {
     id: 13,
     name: "Confiture maison",
-    description: "Figue, cactus, grenade, pomme, poire, figue de barbarie ... merci de spécifier !",
+    description: "Figue, cactus, grenade, pomme, poire, figue de barbarie ... selon disponibilités, merci de spécifier !",
     price: 800,
     category: "transform",
     available: true,
@@ -119,9 +119,9 @@ const products = [
   {
     id: 14,
     name: "Tisanes d'herbes medicinales de la ferme",
-    description: "Zaatar, romarin, artemisia, dguft ... ",
+    description: "Zaatar, romarin, artemisia, dguft, shih ... selon disponibilités ",
     price: 2500,
-    category: "coffee",
+    category: "farm",
     available: false,
     image: "images/coffee.jpg"
   },
@@ -147,7 +147,7 @@ const products = [
     id: 17,
     name: "Huile d'olive",
     description: "Recoltés à la main, tôt, préssés à froid",
-    price: 800,
+    price: 0,
     category: "farm",
     available: false,
     image: "images/trio.jpg"
@@ -156,7 +156,7 @@ const products = [
     id: 18,
     name: "Miel",
     description: "De nos abeilles, élévées naturellement, selon les méthodes de Michael Bush",
-    price: 800,
+    price: 0,
     category: "farm",
     available: false,
     image: "images/trio.jpg"
@@ -165,9 +165,27 @@ const products = [
     id: 19,
     name: "Moringa",
     description: "En feuilles ou en poudre",
-    price: 800,
+    price: 0,
     category: "farm",
     available: false,
+    image: "images/trio.jpg"
+  },
+  {
+    id: 20,
+    name: "Fruits sechés",
+    description: "Figues et/ou abricots déshydratés",
+    price: 0,
+    category: "farm",
+    available: false,
+    image: "images/trio.jpg"
+  },
+  {
+    id: 21,
+    name: "Sirop de Grenade",
+    description: "Jus de grenade reduit avec sucre pour un sirop 100% naturel",
+    price: 0,
+    category: "farm",
+    available: true,
     image: "images/trio.jpg"
   }
 ];

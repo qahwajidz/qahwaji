@@ -299,6 +299,17 @@ body {
   background: rgba(0,0,0,0.6);
 }
 
+#about {
+  max-width: 700px;      /* keeps text from stretching full width */
+  margin: 0 auto 40px;   /* centers and adds bottom spacing */
+  line-height: 1.6;      /* makes paragraphs easier to read */
+  font-size: 16px;
+  color: #333;           /* dark gray text */
+}
+
+#about p {
+  margin-bottom: 1rem;
+}
   
 }
 

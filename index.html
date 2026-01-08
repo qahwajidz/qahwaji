@@ -6,6 +6,7 @@
   <title>Qahwaji – Torréfaction de Café & Produits de la Ferme</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+  
 <body>
 
 <header>
@@ -92,6 +93,24 @@
 <script>
 function scrollToAbout() {
   document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+}
+</script>
+
+<script>
+let slideIndex = 0;
+showSlides(slideIndex);
+
+function changeSlide(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  const slides = document.querySelectorAll("#gallery .slide");
+  if (n >= slides.length) { slideIndex = 0; }
+  if (n < 0) { slideIndex = slides.length - 1; }
+
+  slides.forEach(slide => slide.style.display = "none");
+  slides[slideIndex].style.display = "block";
 }
 </script>
   

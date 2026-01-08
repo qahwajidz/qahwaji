@@ -248,6 +248,57 @@ body {
   margin: 5px;
   padding: 8px 15px;
 }
+
+#gallery {
+  text-align: center;
+  margin: 40px 0;
+  position: relative;
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slide {
+  display: none; /* hide all slides by default */
+  text-align: center;
+}
+
+.slide img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.desc {
+  margin-top: 10px;
+  font-style: italic;
+  color: #555;
+}
+
+/* Navigation buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.3);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+.prev:hover, .next:hover {
+  background: rgba(0,0,0,0.6);
+}
+
   
 }
 

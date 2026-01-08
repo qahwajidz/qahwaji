@@ -22,16 +22,24 @@
 
 
 <nav>
-  <button onclick="filterCategory('all')">Tout</button>
-  <button onclick="filterCategory('coffee')">Café</button>
-  <button onclick="filterCategory('farm')">Produits de la ferme</button>
-  <button onclick="filterCategory('transform')">Transformations</button>
-  <button onclick="toggleAbout()">Qui sommes-nous</button>
+  <!-- First line: product filters -->
+  <div class="menu-row">
+    <button onclick="filterCategory('all')">Tout</button>
+    <button onclick="filterCategory('coffee')">Café</button>
+    <button onclick="filterCategory('farm')">Produits de la ferme</button>
+    <button onclick="filterCategory('transform')">Transformations</button>
+  </div>
+
+  <!-- Second line: about + gallery -->
+  <div class="menu-row">
+    <button>Qui sommes-nous</button>
+    <button onclick="showGallery()">Galerie</button>
+  </div>
 </nav>
 
 <main id="product-list"></main>
 
-<section id="about" class="about hidden">
+<section id="about">
   <h2>Qui sommes-nous</h2>
   <p> Nous sommes une famille franco-américano-algérienne, passionnée de permaculture, qui s’est lancée dans un projet pour reverdir notre petit bout de désert, avec l’envie de vivre plus simplement et plus près de la terre. </p>
 

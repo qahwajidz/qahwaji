@@ -60,7 +60,7 @@ const products = [
     price: 800,
     category: "transform",
     available: true,
-    image: "images/orangettes.jpg"
+    image: "images/orange.jpg"
   },
   {
     id: 8,
@@ -78,7 +78,7 @@ const products = [
     price: 600,
     category: "farm",
     available: true,
-    image: "images/eggs.jpg"
+    image: "images/feuilles.jpg"
   },
   {
     id: 10,
@@ -105,7 +105,7 @@ const products = [
     price: 600,
     category: "farm",
     available: true,
-    image: "images/eggs.jpg"
+    image: "images/olives.jpg"
   },
   {
     id: 13,
@@ -114,7 +114,7 @@ const products = [
     price: 800,
     category: "transform",
     available: true,
-    image: "images/jam.jpg"
+    image: "images/jelly.jpg"
   },
   {
     id: 14,

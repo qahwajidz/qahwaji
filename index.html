@@ -34,7 +34,7 @@
   <!-- Second line: about + gallery -->
   <div class="menu-row">
     <button onclick="scrollToAbout()">Qui sommes-nous</button>
-    <button onclick="showGallery()">Galerie</button>
+    <button onclick="scrollToGallery()">Galerie</button>
   </div>
 </nav>
 
@@ -95,7 +95,11 @@ function scrollToAbout() {
   document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
 }
 </script>
-
+<script>  
+function scrollToGallery() {
+  document.getElementById('gallery').scrollIntoView({ behavior: 'smooth' });
+}
+</script>
 <script>
 let slideIndex = 0;
 showSlides(slideIndex);

@@ -249,37 +249,34 @@ body {
   padding: 8px 15px;
 }
 
-#gallery {
-  text-align: center;
-  margin: 40px 0;
-  position: relative;
-}
-
 .slideshow-container {
   position: relative;
-  max-width: 600px;
-  margin: 0 auto;
+  max-width: 500px;    /* limits the overall slideshow width */
+  margin: 0 auto;      /* centers the slideshow on the page */
   overflow: hidden;
-}
-  .slide img {
-  width: 100%;          /* keeps it responsive */
-  max-width: 500px;     /* limits how big it can get */
-  height: auto;         /* keeps aspect ratio */
-  border-radius: 8px;
-  margin: 0 auto;       /* center the image */
-  display: block;
 }
 
 .slide {
-  display: none; /* hide all slides by default */
-  text-align: center;
+  display: none;       /* hide all slides by default */
+  text-align: center;  /* center text and images */
 }
 
+.slide img {
+  max-width: 100%;     /* scale down if needed */
+  height: auto;        /* maintain aspect ratio */
+  border-radius: 8px;
+  display: inline-block; /* important to center inside text-align:center parent */
+  margin: 0 auto;
+}
 
 .desc {
   margin-top: 10px;
   font-style: italic;
   color: #555;
+  max-width: 480px;    /* optional: make description width match image */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 /* Navigation buttons */

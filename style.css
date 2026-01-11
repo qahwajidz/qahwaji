@@ -251,8 +251,9 @@ body {
 
 .slideshow-container {
   position: relative;
-  max-width: 500px;    /* limits the overall slideshow width */
-  margin: 0 auto;      /* centers the slideshow on the page */
+  max-width: 400px;    /* smaller than before */
+  width: 90%;          /* scales down on small screens */
+  margin: 0 auto;      /* center horizontally */
   overflow: hidden;
 }
 
@@ -273,10 +274,10 @@ body {
   margin-top: 10px;
   font-style: italic;
   color: #555;
-  max-width: 480px;    /* optional: make description width match image */
+  text-align: center;
+  max-width: 400px;     /* match image size */
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
 }
 
 /* Navigation buttons */

@@ -39,7 +39,7 @@ const products = [
     id: 5,
     name: "Cactus candy",
     description: "Cactus confit artisanal, issu de raquettes de figuier de Barbarie et de sucre, et c’est tout. Un peu de minéraux dans vos bonbons !",
-    price: 3000,
+    price: 1000,
     category: "transform",
     available: true,
     image: "images/candy.jpg"
@@ -48,7 +48,7 @@ const products = [
     id: 6,
     name: "Œufs fermiers",
     description: "",
-    price: 600,
+    price: 0,
     category: "farm",
     available: false,
     image: "images/eggs.jpg"
@@ -57,7 +57,7 @@ const products = [
     id: 7,
     name: "Orangettes chocolat noir",
     description: "Bouillies deux fois dans l'eau fraiche, puis dans un sirop de dattes, pour etre ensuite déshydratées et enrobées de chocolat 70%",
-    price: 800,
+    price: 1000,
     category: "transform",
     available: true,
     image: "images/orange.jpg"
@@ -66,7 +66,7 @@ const products = [
     id: 8,
     name: "Chocolate covered espresso beans",
     description: "Nos grains de cafés enrobés dans du chocolat 70%",
-    price: 3000,
+    price: 1000,
     category: "coffee",
     available: true,
     image: "images/chocbeans.jpg"
@@ -75,7 +75,7 @@ const products = [
     id: 9,
     name: "Feuilles d'olivier broyés",
     description: "Tisane de feuille d'olivier, légèrement broyé pour maximiser les bienfaits de cette infusion",
-    price: 600,
+    price: 800,
     category: "farm",
     available: true,
     image: "images/feuilles.jpg"
@@ -93,7 +93,7 @@ const products = [
     id: 11,
     name: "Vinaigre de grenade",
     description: "Vivant, avec sa mère",
-    price: 3000,
+    price: 1000,
     category: "farm",
     available: true,
     image: "images/vinegar.jpg"
@@ -102,7 +102,7 @@ const products = [
     id: 12,
     name: "Olives",
     description: "Olives fermentées selon la méthode traditionnelle de lactofermentation",
-    price: 600,
+    price: 800,
     category: "farm",
     available: true,
     image: "images/olives.jpg"
@@ -120,7 +120,7 @@ const products = [
     id: 14,
     name: "Tisanes d'herbes medicinales de la ferme",
     description: "Zaatar, romarin, artemisia, dguft, shih ... selon disponibilités ",
-    price: 2500,
+    price: 800,
     category: "farm",
     available: false,
     image: "images/feuilles.jpg"
@@ -129,7 +129,7 @@ const products = [
     id: 15,
     name: "Mélange tahini - sirop de dattes",
     description: "Caramel, sans culpabilité ! ",
-    price: 2500,
+    price: 800,
     category: "transform",
     available: true,
     image: "images/caramel.jpg"
@@ -183,7 +183,7 @@ const products = [
     id: 21,
     name: "Sirop de Grenade",
     description: "Jus de grenade reduit avec sucre pour un sirop 100% naturel",
-    price: 0,
+    price: 1000,
     category: "farm",
     available: true,
     image: "images/sirop.jpg"

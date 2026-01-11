@@ -150,7 +150,7 @@ const products = [
     price: 0,
     category: "farm",
     available: false,
-    image: "images/trio.jpg"
+    image: "images/huile.jpg"
   },
    {
     id: 18,
@@ -159,7 +159,7 @@ const products = [
     price: 0,
     category: "farm",
     available: false,
-    image: "images/trio.jpg"
+    image: "images/miel.jpg"
   },
   {
     id: 19,
@@ -168,7 +168,7 @@ const products = [
     price: 0,
     category: "farm",
     available: false,
-    image: "images/trio.jpg"
+    image: "images/photo3.jpg"
   },
   {
     id: 20,
@@ -177,7 +177,7 @@ const products = [
     price: 0,
     category: "farm",
     available: false,
-    image: "images/trio.jpg"
+    image: "images/seches.jpg"
   },
   {
     id: 21,
@@ -186,7 +186,7 @@ const products = [
     price: 0,
     category: "farm",
     available: true,
-    image: "images/trio.jpg"
+    image: "images/sirop.jpg"
   }
 ];
 

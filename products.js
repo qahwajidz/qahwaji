@@ -123,7 +123,7 @@ const products = [
     price: 2500,
     category: "farm",
     available: false,
-    image: "images/coffee.jpg"
+    image: "images/feuilles.jpg"
   },
   {
     id: 15,
@@ -168,7 +168,7 @@ const products = [
     price: 0,
     category: "farm",
     available: false,
-    image: "images/photo3.jpg"
+    image: "images/photo4.jpg"
   },
   {
     id: 20,

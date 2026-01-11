@@ -261,16 +261,20 @@ body {
   margin: 0 auto;
   overflow: hidden;
 }
+  .slide img {
+  width: 100%;          /* keeps it responsive */
+  max-width: 500px;     /* limits how big it can get */
+  height: auto;         /* keeps aspect ratio */
+  border-radius: 8px;
+  margin: 0 auto;       /* center the image */
+  display: block;
+}
 
 .slide {
   display: none; /* hide all slides by default */
   text-align: center;
 }
 
-.slide img {
-  width: 100%;
-  border-radius: 8px;
-}
 
 .desc {
   margin-top: 10px;

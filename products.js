@@ -112,7 +112,7 @@ const products = [
     name: "Confiture maison",
     description: "Figue, cactus, grenade, pomme, poire, figue de barbarie ... selon disponibilités, merci de spécifier !",
     price: 800,
-    category: "transform",
+    category: "farm",
     available: true,
     image: "images/jelly.jpg"
   },

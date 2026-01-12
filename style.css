@@ -296,6 +296,40 @@ footer {
   padding-bottom: 80px; /* space so Insta/Facebook stay visible on mobile */
 }
 
+#about-accordion {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+}
+
+.about-toggle {
+  cursor: pointer;
+  background: #eee;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1.4rem;
+  text-align: center;
+  user-select: none;
+  transition: background 0.3s;
+}
+
+.about-toggle:hover {
+  background: #ddd;
+}
+
+#about-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  padding: 0 10px;
+}
+
+#about-content.open {
+  max-height: 1000px; /* enough for all text */
+  padding-top: 15px;
+}
+
+
 /* Mobile tweaks */
 @media (max-width: 600px) {
   .slideshow-container {

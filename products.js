@@ -20,14 +20,14 @@ const products = [
   {
     id: 3,
     name: "Sampler - 3x250g",
-    description: "100% Arabica, Ethiopie ou Brésil, ",
+    description: "100% Arabica, Ethiopie ou Brésil, light-medium-dark : trouver votre préférence",
     price: 2500,
     category: "coffee",
     available: true,
     image: "images/sampler.jpg"
   },
   {
-    id: 4,
+    id: 5,
     name: "Beurre de cacahuète maison",
     description: "Cacahuètes torréfiées (pas encore de notre production), simplement salé, ou version chocolat - sirop de dattes",
     price: 800,
@@ -36,7 +36,7 @@ const products = [
     image: "images/pb.jpg"
   },
   {
-    id: 5,
+    id: 4,
     name: "Cactus candy",
     description: "Cactus confit artisanal, issu de raquettes de figuier de Barbarie et de sucre, et c’est tout. Un peu de minéraux dans vos bonbons !",
     price: 1000,

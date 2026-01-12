@@ -292,6 +292,10 @@ main {
   background: #4a4f3a;
 }
 
+footer {
+  padding-bottom: 80px; /* space so Insta/Facebook stay visible on mobile */
+}
+
 /* Mobile tweaks */
 @media (max-width: 600px) {
   .slideshow-container {

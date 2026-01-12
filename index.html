@@ -38,7 +38,24 @@
   </div>
 </nav>
 
+<section id="about-accordion">
+  <h2 onclick="toggleAbout()" class="about-toggle">
+    Qui sommes-nous ⯆
+  </h2>
 
+  <div id="about-content">
+    <p>Nous sommes une famille franco-américano-algérienne, passionnée de permaculture, qui s’est lancée dans un projet pour reverdir notre petit bout de désert...</p>
+
+    <p>Nous privilégions des ingrédients simples, des méthodes honnêtes et une production à taille humaine.</p>
+
+    <p>Comme la ferme met du temps à se mettre en place — et que la terre a besoin de temps pour se régénérer...</p>
+
+    <p>Les produits que vous voyez ici évolueront avec le temps...</p>
+
+    <p>Qahwaji</p>
+  </div>
+</section>
+  
 <main id="product-list"></main>
 
 <section id="about" class="about">
@@ -123,6 +140,21 @@ function showSlides(n) {
 
   slides.forEach(slide => slide.style.display = "none");
   slides[slideIndex].style.display = "block";
+}
+</script>
+
+<script>
+function toggleAbout() {
+  const content = document.getElementById('about-content');
+  const title = document.querySelector('.about-toggle');
+
+  if (content.classList.contains('open')) {
+    content.classList.remove('open');
+    title.innerHTML = "Qui sommes-nous ⯆";
+  } else {
+    content.classList.add('open');
+    title.innerHTML = "Qui sommes-nous ⯅";
+  }
 }
 </script>
   

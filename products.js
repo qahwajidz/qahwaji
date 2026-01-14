@@ -32,20 +32,20 @@ const products = [
     name: "Cactus candy",
     description: "Cactus confit artisanal, issu de raquettes de figuier de Barbarie et de sucre, et c’est tout. Un peu de minéraux dans vos bonbons !",
     price: 1000,
-    category: "transform",
+    category: "farm",
     available: true,
     image: "images/candy.jpg"
   },
-  {
+  
+ {
     id: 5,
-    name: "Beurre de cacahuète maison",
-    description: "Cacahuètes torréfiées (pas encore de notre production), simplement salé, ou version chocolat - sirop de dattes",
-    price: 800,
+    name: "Levain naturel déshydraté",
+    description: "Pour faire vos propres pains au levain",
+    price: 300,
     category: "transform",
     available: true,
-    image: "images/pb.jpg"
+    image: "images/levain.jpg"
   },
- 
   {
     id: 6,
     name: "Œufs fermiers",
@@ -82,14 +82,15 @@ const products = [
     available: true,
     image: "images/feuilles.jpg"
   },
-  {
+  
+   {
     id: 10,
-    name: "Levain naturel déshydraté",
-    description: "Pour faire vos propres pains au levain",
-    price: 300,
-    category: "transform",
+    name: "Chocolate Chip Cookies",
+    description: "A l'américaine !",
+    price: 800,
+    category: "trans",
     available: true,
-    image: "images/levain.jpg"
+    image: "images/cookie.jpg"
   },
   {
     id: 11,
@@ -127,14 +128,14 @@ const products = [
     available: false,
     image: "images/feuilles.jpg"
   },
-  {
+   {
     id: 15,
-    name: "Mélange tahini - sirop de dattes",
-    description: "Caramel, sans culpabilité ! ",
-    price: 800,
-    category: "transform",
+    name: "American Fudge",
+    description: "Gourmandise américaine, riche, fondante et intensément chocolatée.",
+    price: 1000,
+    category: "trans",
     available: true,
-    image: "images/caramel.jpg"
+    image: "images/fudge.jpg"
   },
   {
     id: 16,
@@ -190,24 +191,26 @@ const products = [
     available: true,
     image: "images/sirop.jpg"
   },
-    {
+   
+   {
     id: 22,
-    name: "American Fudge",
-    description: "Gourmandise américaine, riche, fondante et intensément chocolatée.",
-    price: 1000,
-    category: "trans",
+    name: "Mélange tahini - sirop de dattes",
+    description: "Caramel, sans culpabilité ! ",
+    price: 800,
+    category: "transform",
     available: true,
-    image: "images/fudge.jpg"
+    image: "images/caramel.jpg"
   },
     {
     id: 23,
-    name: "Chocolate Chip Cookies",
-    description: "A l'américaine !",
+    name: "Beurre de cacahuète maison",
+    description: "Cacahuètes torréfiées (pas encore de notre production), simplement salé, ou version chocolat - sirop de dattes",
     price: 800,
-    category: "trans",
+    category: "transform",
     available: true,
-    image: "images/cookie.jpg"
+    image: "images/pb.jpg"
   },
+   
     {
     id: 24,
     name: "Racquettes de cactus figue de barbarie",

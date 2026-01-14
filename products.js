@@ -1,6 +1,6 @@
 const products = [
    {
-    id: 2,
+    id: 1,
     name: "Café torréfié – 1 kg",
     description: "100% Arabica, Ethiopie ou Brésil",
     price: 3000,
@@ -9,7 +9,7 @@ const products = [
     image: "images/coffee.jpg"
   },
   {
-    id: 1,
+    id: 2,
     name: "Café torréfié – 250 g",
     description: "100% Arabica, Ethiopie ou Brésil",
     price: 800,
@@ -27,6 +27,15 @@ const products = [
     available: true,
     image: "images/sampler.jpg"
   },
+    {
+    id: 4,
+    name: "Cactus candy",
+    description: "Cactus confit artisanal, issu de raquettes de figuier de Barbarie et de sucre, et c’est tout. Un peu de minéraux dans vos bonbons !",
+    price: 1000,
+    category: "transform",
+    available: true,
+    image: "images/candy.jpg"
+  },
   {
     id: 5,
     name: "Beurre de cacahuète maison",
@@ -36,15 +45,7 @@ const products = [
     available: true,
     image: "images/pb.jpg"
   },
-  {
-    id: 4,
-    name: "Cactus candy",
-    description: "Cactus confit artisanal, issu de raquettes de figuier de Barbarie et de sucre, et c’est tout. Un peu de minéraux dans vos bonbons !",
-    price: 1000,
-    category: "transform",
-    available: true,
-    image: "images/candy.jpg"
-  },
+ 
   {
     id: 6,
     name: "Œufs fermiers",
@@ -188,6 +189,33 @@ const products = [
     category: "farm",
     available: true,
     image: "images/sirop.jpg"
+  },
+    {
+    id: 22,
+    name: "American Fudge",
+    description: "Gourmandise américaine, riche, fondante et intensément chocolatée.",
+    price: 1000,
+    category: "trans",
+    available: true,
+    image: "images/fudge.jpg"
+  },
+    {
+    id: 23,
+    name: "Chocolate Chip Cookies",
+    description: "A l'américaine !",
+    price: 800,
+    category: "trans",
+    available: true,
+    image: "images/cookies.jpg"
+  },
+    {
+    id: 24,
+    name: "Racquettes de cactus figue de barbarie",
+    description: "Pour replanter chez vous. Sans épines (ou presque). Prix à l'unité",
+    price: 200,
+    category: "farm",
+    available: true,
+    image: "images/racquette.jpg"
   }
 ];
 

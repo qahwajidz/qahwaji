@@ -1,4 +1,13 @@
 const products = [
+   {
+    id: 2,
+    name: "Café torréfié – 1 kg",
+    description: "100% Arabica, Ethiopie ou Brésil",
+    price: 3000,
+    category: "coffee",
+    available: true,
+    image: "images/coffee.jpg"
+  },
   {
     id: 1,
     name: "Café torréfié – 250 g",
@@ -8,15 +17,7 @@ const products = [
     available: true,
     image: "images/250g.jpg"
   },
-  {
-    id: 2,
-    name: "Café torréfié – 1 kg",
-    description: "100% Arabica, Ethiopie ou Brésil",
-    price: 3000,
-    category: "coffee",
-    available: true,
-    image: "images/coffee.jpg"
-  },
+ 
   {
     id: 3,
     name: "Sampler - 3x250g",

@@ -206,7 +206,7 @@ const products = [
     price: 800,
     category: "trans",
     available: true,
-    image: "images/cookies.jpg"
+    image: "images/cookie.jpg"
   },
     {
     id: 24,

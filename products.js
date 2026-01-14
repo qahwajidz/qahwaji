@@ -113,7 +113,7 @@ const products = [
   {
     id: 13,
     name: "Confiture maison",
-    description: "Figue, cactus, grenade, pomme, poire, figue de barbarie ... selon disponibilités, merci de spécifier !",
+    description: "Cactus, figue, abricot, grenade, pomme, poire, figue de barbarie, raisin, murier ... selon disponibilités, merci de spécifier !",
     price: 800,
     category: "farm",
     available: true,
@@ -175,7 +175,7 @@ const products = [
   },
   {
     id: 20,
-    name: "Fruits sechés",
+    name: "Fruits séchés",
     description: "Figues et/ou abricots déshydratés",
     price: 0,
     category: "farm",
@@ -185,7 +185,7 @@ const products = [
   {
     id: 21,
     name: "Sirop de Grenade",
-    description: "Jus de grenade reduit avec sucre pour un sirop 100% naturel",
+    description: "Jus de grenade reduit avec du sucre, pour un sirop 100% naturel",
     price: 1000,
     category: "farm",
     available: true,
@@ -204,7 +204,7 @@ const products = [
     {
     id: 23,
     name: "Beurre de cacahuète maison",
-    description: "Cacahuètes torréfiées (pas encore de notre production), simplement salé, ou version chocolat - sirop de dattes",
+    description: "Cacahuètes torréfiées, simplement salé, ou version chocolat - sirop de dattes",
     price: 800,
     category: "transform",
     available: true,
@@ -214,7 +214,7 @@ const products = [
     {
     id: 24,
     name: "Racquettes de cactus figue de barbarie",
-    description: "Pour replanter chez vous. Sans épines (ou presque). Prix à l'unité",
+    description: "A replanter chez vous. Sans épines (ou presque). Prix à l'unité",
     price: 200,
     category: "farm",
     available: true,

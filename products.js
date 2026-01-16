@@ -204,7 +204,7 @@ const products = [
     {
     id: 23,
     name: "Beurre de cacahuète chocolaté",
-    description: "Cacahuètes torréfiées, mélangé avec chocolat - sirop de dattes",
+    description: "Cacahuètes torréfiées, mélangées avec du chocolat et du sirop de dattes",
     price: 800,
     category: "transform",
     available: true,

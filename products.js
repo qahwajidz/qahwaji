@@ -58,7 +58,7 @@ const products = [
   {
     id: 7,
     name: "Orangettes chocolat noir",
-    description: "Bouillies deux fois dans l'eau fraiche, puis dans un sirop de dattes, pour etre ensuite déshydratées et enrobées de chocolat 70%",
+    description: "Bouillies deux fois dans l'eau fraiche, puis dans un sirop de dattes/sucre, pour etre ensuite déshydratées et enrobées de chocolat 70%",
     price: 1000,
     category: "transform",
     available: true,
@@ -76,7 +76,7 @@ const products = [
   {
     id: 9,
     name: "Feuilles d'olivier broyés",
-    description: "Tisane de feuille d'olivier, légèrement broyé pour maximiser les bienfaits de cette infusion",
+    description: "Feuilles d’olivier légèrement broyées pour une infusion riche en bienfaits naturels.",
     price: 800,
     category: "farm",
     available: true,
@@ -126,7 +126,7 @@ const products = [
     price: 800,
     category: "farm",
     available: false,
-    image: "images/feuilles.jpg"
+    image: "images/tisane.jpg"
   },
    {
     id: 15,
@@ -140,7 +140,7 @@ const products = [
   {
     id: 16,
     name: "Trio de couscous",
-    description: "Melande de couscous de semoule, gland (balout), orge",
+    description: "Melange de couscous de semoule, gland (balout) et orge",
     price: 800,
     category: "transform",
     available: true,
@@ -153,7 +153,7 @@ const products = [
     price: 0,
     category: "farm",
     available: false,
-    image: "images/huile.jpg"
+    image: "images/oil.jpg"
   },
    {
     id: 18,
@@ -171,7 +171,7 @@ const products = [
     price: 0,
     category: "farm",
     available: false,
-    image: "images/photo4.jpg"
+    image: "images/moringa.jpg"
   },
   {
     id: 20,
@@ -203,8 +203,8 @@ const products = [
   },
     {
     id: 23,
-    name: "Beurre de cacahuète maison",
-    description: "Cacahuètes torréfiées, simplement salé, ou version chocolat - sirop de dattes",
+    name: "Beurre de cacahuète chocolaté",
+    description: "Cacahuètes torréfiées, mélangé avec chocolat - sirop de dattes",
     price: 800,
     category: "transform",
     available: true,

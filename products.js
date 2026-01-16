@@ -49,7 +49,7 @@ const products = [
   {
     id: 6,
     name: "Œufs fermiers",
-    description: "",
+    description: "De nos poules chouchoutées",
     price: 0,
     category: "farm",
     available: false,
@@ -88,7 +88,7 @@ const products = [
     name: "Chocolate Chip Cookies",
     description: "A l'américaine !",
     price: 800,
-    category: "trans",
+    category: "transform",
     available: true,
     image: "images/cookie.jpg"
   },
@@ -133,7 +133,7 @@ const products = [
     name: "American Fudge",
     description: "Gourmandise américaine, riche, fondante et intensément chocolatée.",
     price: 1000,
-    category: "trans",
+    category: "transform",
     available: true,
     image: "images/fudge.jpg"
   },

@@ -214,7 +214,7 @@ const products = [
     {
     id: 24,
     name: "Racquettes de cactus figue de barbarie",
-    description: "A replanter chez vous. Sans épines (ou presque). Prix à l'unité",
+    description: "A replanter chez vous. Sans épines (ou presque), et très faciles à cultiver. Prix à l'unité",
     price: 400,
     category: "farm",
     available: true,

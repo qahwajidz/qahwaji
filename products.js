@@ -58,7 +58,7 @@ const products = [
   {
     id: 7,
     name: "Orangettes chocolat noir",
-    description: "Bouillies deux fois dans l'eau fraiche, puis dans un sirop de dattes/sucre, pour etre ensuite déshydratées et enrobées de chocolat 70%",
+    description: "Bouillies deux fois dans l'eau fraîche, puis dans un sirop de dattes et de sucre, avant d'être déshydratées et enrobées de chocolat noir 70%",
     price: 1000,
     category: "transform",
     available: true,
@@ -67,7 +67,7 @@ const products = [
   {
     id: 8,
     name: "Chocolate covered espresso beans",
-    description: "Nos grains de cafés enrobés dans du chocolat 70%",
+    description: "Nos grains de cafés enrobés dans du chocolat noir 70%",
     price: 1000,
     category: "coffee",
     available: true,
@@ -140,7 +140,7 @@ const products = [
   {
     id: 16,
     name: "Trio de couscous",
-    description: "Melange de couscous de semoule, gland (balout) et orge",
+    description: "Mélange de trois couscous : semoule, gland (balout) et orge",
     price: 800,
     category: "transform",
     available: true,

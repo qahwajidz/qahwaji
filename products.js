@@ -1,5 +1,5 @@
 const products = [
-   {
+  {
     id: 1,
     name: "Café torréfié – 1 kg",
     description: "100% Arabica, Ethiopie ou Brésil",
@@ -17,7 +17,6 @@ const products = [
     available: true,
     image: "images/250g.jpg"
   },
- 
   {
     id: 3,
     name: "Sampler - 3x250g",
@@ -27,43 +26,6 @@ const products = [
     available: true,
     image: "images/sampler.jpg"
   },
-    {
-    id: 4,
-    name: "Cactus candy",
-    description: "Cactus confit artisanal, issu de raquettes de figuier de Barbarie et de sucre, et c’est tout. Un peu de minéraux dans vos bonbons !",
-    price: 1000,
-    category: "farm",
-    available: true,
-    image: "images/candy.jpg"
-  },
-  
- {
-    id: 5,
-    name: "Levain naturel déshydraté",
-    description: "Pour faire vos propres pains au levain",
-    price: 300,
-    category: "transform",
-    available: true,
-    image: "images/levain.jpg"
-  },
-  {
-    id: 6,
-    name: "Œufs fermiers",
-    description: "De nos poules chouchoutées",
-    price: 0,
-    category: "farm",
-    available: false,
-    image: "images/eggs.jpg"
-  },
-  {
-    id: 7,
-    name: "Orangettes chocolat noir",
-    description: "Bouillies deux fois dans l'eau fraîche, puis dans un sirop de dattes et de sucre, avant d'être déshydratées et enrobées de chocolat noir 70%",
-    price: 1000,
-    category: "transform",
-    available: true,
-    image: "images/orange.jpg"
-  },
   {
     id: 8,
     name: "Chocolate covered espresso beans",
@@ -72,153 +34,5 @@ const products = [
     category: "coffee",
     available: true,
     image: "images/chocbeans.jpg"
-  },
-  {
-    id: 9,
-    name: "Feuilles d'olivier broyés",
-    description: "Feuilles d’olivier légèrement broyées pour une infusion riche en bienfaits naturels.",
-    price: 800,
-    category: "farm",
-    available: true,
-    image: "images/feuilles.jpg"
-  },
-  
-   {
-    id: 10,
-    name: "Chocolate Chip Cookies",
-    description: "A l'américaine !",
-    price: 800,
-    category: "transform",
-    available: true,
-    image: "images/cookie.jpg"
-  },
-  {
-    id: 11,
-    name: "Vinaigre de grenade",
-    description: "Vivant, avec sa mère",
-    price: 1000,
-    category: "farm",
-    available: true,
-    image: "images/vinegar.jpg"
-  },
-  {
-    id: 12,
-    name: "Olives",
-    description: "Olives fermentées selon la méthode traditionnelle de lactofermentation",
-    price: 800,
-    category: "farm",
-    available: true,
-    image: "images/olives.jpg"
-  },
-  {
-    id: 13,
-    name: "Confiture maison",
-    description: "Cactus, figue, abricot, grenade, pomme, poire, figue de barbarie, raisin, murier ... selon disponibilités, merci de spécifier !",
-    price: 800,
-    category: "farm",
-    available: true,
-    image: "images/jelly.jpg"
-  },
-  {
-    id: 14,
-    name: "Tisanes d'herbes medicinales de la ferme",
-    description: "Zaatar, romarin, artemisia, dguft, shih ... selon disponibilités ",
-    price: 800,
-    category: "farm",
-    available: false,
-    image: "images/tisane.jpg"
-  },
-   {
-    id: 15,
-    name: "American Fudge",
-    description: "Gourmandise américaine, riche, fondante et intensément chocolatée.",
-    price: 1000,
-    category: "transform",
-    available: true,
-    image: "images/fudge.jpg"
-  },
-  {
-    id: 16,
-    name: "Trio de couscous",
-    description: "Mélange de trois couscous : semoule, gland (balout) et orge",
-    price: 800,
-    category: "transform",
-    available: true,
-    image: "images/trio.jpg"
-  },
-   {
-    id: 17,
-    name: "Huile d'olive",
-    description: "Recoltés à la main, tôt, préssés à froid",
-    price: 0,
-    category: "farm",
-    available: false,
-    image: "images/oil.jpg"
-  },
-   {
-    id: 18,
-    name: "Miel",
-    description: "De nos abeilles, élévées naturellement, selon les méthodes de Michael Bush",
-    price: 0,
-    category: "farm",
-    available: false,
-    image: "images/miel.jpg"
-  },
-  {
-    id: 19,
-    name: "Moringa",
-    description: "En feuilles ou en poudre",
-    price: 0,
-    category: "farm",
-    available: false,
-    image: "images/moringa.jpg"
-  },
-  {
-    id: 20,
-    name: "Fruits séchés",
-    description: "Figues et/ou abricots déshydratés",
-    price: 0,
-    category: "farm",
-    available: false,
-    image: "images/seches.jpg"
-  },
-  {
-    id: 21,
-    name: "Sirop de Grenade",
-    description: "Jus de grenade reduit avec du sucre, pour un sirop 100% naturel",
-    price: 1000,
-    category: "farm",
-    available: true,
-    image: "images/sirop.jpg"
-  },
-   
-   {
-    id: 22,
-    name: "Mélange tahini - sirop de dattes",
-    description: "Caramel, sans culpabilité ! ",
-    price: 800,
-    category: "transform",
-    available: true,
-    image: "images/caramel.jpg"
-  },
-    {
-    id: 23,
-    name: "Beurre de cacahuète chocolaté",
-    description: "Cacahuètes torréfiées, mélangées avec du chocolat et du sirop de dattes",
-    price: 800,
-    category: "transform",
-    available: true,
-    image: "images/pb.jpg"
-  },
-   
-    {
-    id: 24,
-    name: "Racquettes de cactus figue de barbarie",
-    description: "A replanter chez vous. Sans épines (ou presque), et très faciles à cultiver. Prix à l'unité",
-    price: 400,
-    category: "farm",
-    available: true,
-    image: "images/racquette.jpg"
   }
 ];
-
